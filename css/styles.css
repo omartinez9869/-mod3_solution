@@ -1,0 +1,113 @@
+body {
+  font-size: 16px;
+  color: black;
+  background-color: white;
+}
+
+#header-nav
+{
+	background-color: lightgrey;
+	border-radius: 0;
+	border: 0;
+	
+	
+}
+
+#header-nav .container
+{
+	margin-left: 5px;
+	margin-right: 5px;
+
+	
+}
+.navbar-brand
+{
+	padding-top: 25px;
+}
+.navbar-brand h1
+{
+  color: black;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+
+}
+
+.navbar-header button.navbar-toggle
+{
+	clear: both;
+	margin-top: -30px;
+	border: 2px solid black;
+	padding: 5px;
+	border-radius: 8px;
+
+}
+.navbar-header button.navbar-toggle:active
+{
+	border: 2px solid white;
+}
+
+#nav-list
+{
+	background-color: white;
+	margin-top: 10px;
+}
+#nav-list li 
+{
+	border: 1px solid black;
+	height: auto;
+
+}
+#nav-list a
+{
+	color: black;
+	text-align: center;
+	line-height: 40px;
+	font-weight: bold;
+	font-size: 1.5em;
+	
+}
+#my_collapsable_nav
+{
+	text-align: center;
+}
+#my_collapsable_nav a 
+{
+	width: 100%;
+	background-color: lightgreen;
+}
+/* Begin my main content */
+#myrow
+{
+	width: 100%;
+}
+.mybigcol p
+{
+	
+	background-color: lightgrey;
+	padding-right: 2px;
+	padding-left: 2px;
+
+}
+.my_head_menu
+{
+	background-color: black;
+	color: white;
+}
+
+@media (max-width: 768px)
+{
+	.navbar-brand h1
+{
+
+  font-size: 3.5vw;
+ 
+
+}
+}
+
+
+
